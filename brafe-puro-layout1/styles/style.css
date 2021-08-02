@@ -1,0 +1,51 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Georgia;
+    color: #252525;
+
+}
+
+header.menu {
+    background-color: #252525;
+    padding: 20px 0;
+}
+
+header .menu-container {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+header .menu-container::after, header .menu-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header a.menu-logo {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+header .menu-nav {
+    float: right;
+    margin-right: 10px;
+}
+
+header .menu-nav li {
+    display: inline-block;
+}
+
+header .menu-nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em;
+}

@@ -81,3 +81,60 @@ main.intro p {
     font-style: italic;
     font-size: 18px;
 }
+
+/* Sobre */
+
+section.sobre {
+    padding: 60px 0;
+}
+
+section.sobre .sobre-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section.sobre .sobre-container::after, section.sobre .sobre-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section.sobre h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+section.sobre .sobre-item {
+    width: 460px;
+    float: left;
+    margin: 0 10px
+}
+
+section.sobre .sobre-item img {
+    display: block;
+    max-width: 100%;
+}
+
+section.sobre .sobre-item h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    background-color: #252525;
+    width: 220px;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    top: -25px;
+    position: relative;
+}
+
+section.sobre > p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+}

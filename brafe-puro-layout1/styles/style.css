@@ -10,9 +10,11 @@ body {
 
 }
 
+/* Header */
+
 header.menu {
     background-color: #252525;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 header .menu-container {
@@ -48,4 +50,34 @@ header .menu-nav a {
     text-decoration: none;
     color: #fff;
     font-size: 1.125em;
+}
+
+/* Intro */
+
+main.intro {
+    background: url('../images/bg-intro.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    color: #fff;
+}
+
+main.intro h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main.intro h1::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+
+main.intro p {
+    font-style: italic;
+    font-size: 18px;
 }

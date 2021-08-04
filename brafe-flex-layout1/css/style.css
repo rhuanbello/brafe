@@ -20,6 +20,14 @@ body {
 	display: flex;
 	max-width: 960px;
 	margin: 0 auto;
+	
+}
+
+@media (max-width: 739px){
+	.container {
+		flex-direction: column;
+		max-width: 300px;
+	}
 }
 
 .menu {
@@ -33,9 +41,14 @@ body {
 	font-size: 1.125em;
 }
 
+.menu-logo {
+	margin: 0 10px;
+}
+
 .menu-nav {
 	flex: 1;
 	align-self: center;
+	margin: 0 10px;
 }
 
 .menu-nav ul {
@@ -50,6 +63,23 @@ body {
 	
 }
 
+@media (max-width: 739px){
+	.menu-nav {
+		margin: 0px;
+	}
+	.menu-logo {
+		margin: 15px auto;
+	}
+	.menu nav ul li {
+		margin-bottom: 10px;
+	}
+	.menu-nav ul li a {
+		padding-left: 0px;
+	}
+	
+}
+
+
 /* Intro */
 
 .intro {
@@ -60,9 +90,21 @@ body {
 	text-align: center;
 }
 
+@media (max-width: 739px){
+	.intro {
+		padding: 60px 0;
+	}
+}
+
 .intro h1 {
 	text-transform: uppercase;
 	font-size: 3em;
+}
+
+@media (max-width: 510px){
+	.intro h1 {
+		font-size: 2.5em;
+	}
 }
 
 .intro h1::after {
@@ -95,11 +137,13 @@ body {
 	max-width: 100%;
 }
 
+
 .sobre h2 {
 	font-size: 2.25em;
 	text-align: center;
 	margin-bottom: 60px;
 }
+
 
 .sobre-item h3 {
 	font-size: 2.25em;
@@ -122,6 +166,24 @@ body {
 	margin: 20px auto;
 	max-width: 460px;
 	text-align: center;
+}
+
+@media (max-width: 739px) {
+	.sobre-item {
+		margin-left: 0px;
+		margin-right: 0px;;
+	}
+
+	.sobre h2 {
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 460px) {
+	.sobre > p {
+		max-width: 300px;
+	}
 }
 
 /* Produtos */
@@ -173,6 +235,17 @@ h2.produtos-mineiro::before {
 .produtos-item p {
 	font-size: 0.875em;
 	line-height: 1.4em;
+}
+
+@media (max-width: 739px) {
+	.produtos-item p {
+		font-size: 1.2em;
+		text-align: center;
+	}
+	.produtos-item {
+		margin-left: 0px;
+		margin-right: 0px;;
+	}
 }
 
 .produtos-btn {
@@ -230,6 +303,16 @@ h2.produtos-mineiro::before {
 	padding: 10px 20px;
 }
 
+@media (max-width: 739px) {
+	.locais-img img, .locais-info{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.locais-img {
+		margin-bottom: 10px;
+	}
+}
+
 /* Assine */
 
 .assine {
@@ -241,7 +324,6 @@ h2.produtos-mineiro::before {
 	flex: 1;
 	margin: 0 10px;
 }
-
 
 .assine-info h2 {
 	font-size: 2.25em;
@@ -259,6 +341,17 @@ h2.produtos-mineiro::before {
 	flex-wrap: wrap;
 	align-content: flex-start;
 }
+
+@media (max-width: 739px) {
+	.assine-info {
+		margin: 0 0 40px 0;
+	}
+	.assine form {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
 
 .assine form label {
 	display: none;
@@ -302,7 +395,12 @@ h2.produtos-mineiro::before {
 	flex: 1;
 }
 
-.footer .footer-img {
+.footer-img {
 	margin: 0 10px;
-	flex: 1:
+}
+
+@media (max-width: 739px) {
+	.footer-img, .footer p {
+		margin: 10px 0px;
+	}
 }

@@ -14,7 +14,7 @@ body {
 
 header.menu {
     background-color: #252525;
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
 header .menu-container {
@@ -238,7 +238,7 @@ h2.produtos-mineiro::before {
 	width: 460px;
 	display: block;
 	float: left;
-	margin: 0 10px;
+	margin: 0 20px;
 }
 
 .locais-item > div {
@@ -367,3 +367,106 @@ h2.produtos-mineiro::before {
 	margin: 0 10px;
 	display: block;
 }
+
+/* Responsivo */
+
+@media only screen and (max-width: 739px) {
+    .menu-nav {
+        float: none;
+        clear: both;
+    }    
+    .intro {
+        padding: 40px 0;
+    }
+
+}
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+    /* Sobre */
+    .sobre-container {
+        max-width: 720px;
+    }
+    .sobre-item {
+        width: 340px;
+    }
+    /* Produtos */
+    .produtos-container {
+        max-width: 720px;
+    }
+    .produtos-item {
+        width: 220px;
+    }
+    /* Locais */
+    .locais {
+        max-width: 720px;
+    }
+    .locais-item > div, .locais-item img {
+        width: 340px;
+    }
+    /* Assine */
+    .assine-container{
+        max-width: 720px;
+    }
+    .assine-info, .assine form, .assine input {
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px) {
+    /* Header */
+    .menu {
+        text-align: center;
+    }
+    a.menu-logo {
+        float: none;
+        margin: 0 auto;
+    }
+    .menu-nav {
+        clear: both;
+        float: none;
+    }
+    /* Sobre */
+    .sobre-container {
+        max-width: 300px;
+    }
+    .sobre-item {
+        width: 300px;
+        margin: 0 auto;
+    }
+    /* Produtos */
+    .produtos-container {
+        max-width: 300px;
+    }
+    .produtos-item {
+        margin: 0 auto 20px auto;
+    }
+    /* Locais */
+    .locais {
+        max-width: 300px;
+    }
+    .locais-item > div, .locais-item img {
+        width: 300px;
+        margin: 0px;
+    }
+    /* Assine */
+    .assine-container {
+        max-width: 300px;
+    }
+    .assine-info, .assine form, .assine input {
+        width: 300px;
+        margin: 10px 0 0 0;
+    }
+    /* Footer */
+    .footer-container {
+        max-width: 300px;
+    }
+    .footer p {
+        float: none;
+        margin: 0px;
+    }
+    .footer img {
+        float: none;
+        margin: 20px 0;
+    }
+}
+

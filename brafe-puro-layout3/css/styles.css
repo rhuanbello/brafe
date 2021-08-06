@@ -141,9 +141,10 @@ a {
 
 @media (max-width: 739px) {
 	.side-nav {
-		margin: 20px 0 0 20px;
+		/* margin: 20px 0 0 20px; */
 		background: none;
 		width: auto;
+        margin: 20px auto;
 	}
 	.side-nav li {
 		display: inline-block;

@@ -1,6 +1,4 @@
-# Untitled
-
-[https://imgur.com/vAsPU5b](https://imgur.com/vAsPU5b)
+![https://i.imgur.com/G0MCQl5.png](https://i.imgur.com/G0MCQl5.png)
 
 Você pode acessar o projeto clicando [aqui.](https://rhuanbello.github.io/brafe/)
 
@@ -33,11 +31,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Você pode acessar o projeto clicando [aqui.](https://rhuanbello.github.io/brafe/)
 
-[https://imgur.com/wnbfNXW](https://imgur.com/wnbfNXW)
+![https://imgur.com/wnbfNXW](https://i.imgur.com/wnbfNXW.png)
 
-[https://imgur.com/LxfgHGd](https://imgur.com/LxfgHGd)
+![https://imgur.com/LxfgHGd](https://imgur.com/LxfgHGd.png)
 
-[https://imgur.com/pkglWKa](https://imgur.com/pkglWKa)
+![https://imgur.com/pkglWKa](https://imgur.com/pkglWKa.png)
 
 ---
 
